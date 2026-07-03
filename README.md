@@ -6,3 +6,4 @@ create server.js
 
 npm install express
 write code in express
+create a folder named frontend and a file with
