@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello from frontend</h1>
+    <div id="nav">
+        <a href="/">Home</a>
+        <a href="https://github.com" target="_blank">Github</a>
+        <a href="https://www.leetcode.com" target="_blank">Leetcode</a>
+        <a href="https://www.hackerrank.com" target="_blank">Hackerrank</a>
+        <a href="./pages/auto-suggest.html" target="_blank">Auto Suggest</a>
+    </div>
+    <div id="home-intro">
+        <h1> Home Page </h1>
+        <p id="p1"> Operations on user card </p>
+        <p id="p2"> Toggle, Get random user and much more </p>
+    </div>
+    <div id="card">
+        <div id="card-img">
+            <img id="img" src="./images/jane.png">
+        </div>
+        <h1 id="card-name"> Jane Doe </h1>
+        <p id="card-gender"> Female </p>
+        <button onclick="toggle()">Toggle</button>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
